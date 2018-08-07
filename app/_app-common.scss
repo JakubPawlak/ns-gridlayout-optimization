@@ -17,18 +17,17 @@ $btn-margin-x: 12;
   border-radius: 4;
 }
 
+.image {
+  height: 40;
+  width: 40;
+}
+
 .card-header, .card-body {
   padding: 10 12;
 }
 
-.card-header {
-  .image {
-    height: 40;
-    width: 40;
-  }
-  .title, .caption {
-    margin-bottom: 0;
-  }
+.title, .caption {
+  margin-bottom: 0;
 }
 
 .title {

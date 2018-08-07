@@ -3,11 +3,10 @@
 
 
 <TabView #tabView androidSelectedTabHighlightColor="#5F1F42" class="tab-view">
+    <DockLayout class="page tab-view-item" stretchLastChild="false" *tabItem="{title: 'Optimized'}">
+        <OptimizedLayout></OptimizedLayout>
+    </DockLayout>
     <GridLayout class="page tab-view-item" *tabItem="{title: 'Unoptimized'}">
         <UnoptimizedLayout></UnoptimizedLayout>
     </GridLayout>
-    <StackLayout class="page tab-view-item" *tabItem="{title: 'Optimized'}">
-        <Label text="This is Label in Tab 1"></Label>
-
-    </StackLayout>
 </TabView>

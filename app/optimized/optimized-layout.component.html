@@ -1,7 +1,13 @@
-<ActionBar class="action-bar">
-    <Label class="action-bar-title" text="Home"></Label>
-</ActionBar>
-
-<GridLayout class="page">
-    <!-- Add your page content here -->
+<GridLayout columns="auto, *, auto" rows="auto, auto, auto, auto" dock="top" class="card">
+    <Label col="0" row="0" text="Terminator" class="h3 title m-r-2 m-l-12 m-t-10"></Label>
+    <Label col="1" row="0" text="(1984)" class="h3 caption m-t-10"></Label>
+    <Label col="0" row="1" text="SciFi, Action" class="h5 caption m-l-12 p-b-10"></Label>
+    <Image col="2" row="0" rowSpan="2" src="res://icon" class="image img-circle m-r-12"
+           verticalAlignment="center"></Image>
+    <Label col="0" colSpan="3" row="2" class="hr-light"></Label>
+    <Label col="0" colSpan="3" row="3"
+           text="A seemingly indestructible android is sent from 2029 to 1984 to assassinate a waitress, whose unborn son will lead humanity in a war against the machines, while a soldier from that war is sent to protect her at all costs."
+           textWrap="true" class="body caption m-x-12 p-y-10"></Label>
 </GridLayout>
+
+<Button dock="bottom" text="Button at the bottom" class="btn btn-primary m-12" (tap)="null"></Button>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-    selector: "Home",
+    selector: "OptimizedLayout",
     moduleId: module.id,
     templateUrl: "./optimized-layout.component.html"
 })
