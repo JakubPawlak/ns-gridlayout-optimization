@@ -1,0 +1,40 @@
+@import '~nativescript-theme-core/scss/light';
+
+$background: #DFDFDF;
+$ab-background: #5F1F42;
+$ab-color: white;
+$btn-color: $ab-background;
+$btn-padding-y: 20;
+$btn-color-inverse: rgba(255, 255, 255, 0.87);
+$btn-font-size: 15;
+$btn-margin-x: 12;
+
+@import '~nativescript-theme-core/scss/index';
+
+.card {
+  margin: 16;
+  background-color: #F3F3F6;
+  border-radius: 4;
+}
+
+.card-header, .card-body {
+  padding: 10 12;
+}
+
+.card-header {
+  .image {
+    height: 40;
+    width: 40;
+  }
+  .title, .caption {
+    margin-bottom: 0;
+  }
+}
+
+.title {
+  color: $primary;
+}
+
+.caption {
+  color: $secondary;
+}

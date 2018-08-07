@@ -1,9 +1,10 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-    selector: "Home",
+    selector: "UnoptimizedLayout",
     moduleId: module.id,
-    templateUrl: "./unoptimized-layout.component.html"
+    templateUrl: "./unoptimized-layout.component.html",
+    styleUrls: ["./unoptimized-layout.component.scss"]
 })
 export class UnoptimizedLayoutComponent implements OnInit {
 

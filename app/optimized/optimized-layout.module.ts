@@ -17,4 +17,4 @@ import { OptimizedLayoutComponent } from "./optimized-layout.component";
         NO_ERRORS_SCHEMA
     ]
 })
-export class UnoptimizedModule { }
+export class OptimizedLayoutModule { }

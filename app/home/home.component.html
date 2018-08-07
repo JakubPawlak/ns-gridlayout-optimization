@@ -1,8 +1,13 @@
-<TabView #tabView androidSelectedTabHighlightColor="#8b0000">
-    <ng-container *tabItem="{title: 'Unoptimized'}">
+<ActionBar title="Grid Layout Sample" class="action-bar">
+</ActionBar>
+
+
+<TabView #tabView androidSelectedTabHighlightColor="#5F1F42" class="tab-view">
+    <GridLayout class="page tab-view-item" *tabItem="{title: 'Unoptimized'}">
+        <UnoptimizedLayout></UnoptimizedLayout>
+    </GridLayout>
+    <StackLayout class="page tab-view-item" *tabItem="{title: 'Optimized'}">
         <Label text="This is Label in Tab 1"></Label>
-    </ng-container>
-    <ng-container *tabItem="{title: 'Unoptimized'}">
-        <Label text="This is Label in Tab 2"></Label>
-    </ng-container>
+
+    </StackLayout>
 </TabView>
